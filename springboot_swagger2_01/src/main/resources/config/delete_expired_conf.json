@@ -1,0 +1,23 @@
+[
+  {
+    "systemName": "要删除的所有表的配置",
+    "tableConfigs": [
+      {
+        "tableName": "device_info",
+        "timeColName": "createtime",
+        "timeColType": "varchar",
+        "timeColDesc": "创建时间",
+        "remainTime": 5,
+        "remianTimeUnit": "minute"
+      },
+      {
+        "tableName": "del_test",
+        "timeColName": "test_time",
+        "timeColType": "varchar",
+        "timeColDesc": "创建时间啦",
+        "remainTime": 1,
+        "remianTimeUnit": "day"
+      }
+    ]
+  }
+]

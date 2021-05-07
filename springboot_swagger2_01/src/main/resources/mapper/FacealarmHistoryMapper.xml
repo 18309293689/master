@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.study.springboot_swagger2_01.mapper.FacealarmHistoryMapper">
+  <resultMap id="facealarmHistoryMap" type="com.study.springboot_swagger2_01.pojo.FacealarmHistory">
+    <id property="fid" jdbcType="INTEGER" column="fid"/>
+    <result property="faceId" jdbcType="VARCHAR" column="face_id"/>
+    <result property="faceIdtype" jdbcType="VARCHAR" column="face_idtype"/>
+    <result property="faceCardid" jdbcType="VARCHAR" column="face_cardid"/>
+    <result property="alarmType" jdbcType="VARCHAR" column="alarm_type"/>
+    <result property="faceGender" jdbcType="VARCHAR" column="face_gender"/>
+    <result property="guardType" jdbcType="VARCHAR" column="guard_type"/>
+    <result property="snapTime" jdbcType="VARCHAR" column="snap_time"/>
+    <result property="snapPicurl" jdbcType="VARCHAR" column="snap_picurl"/>
+    <result property="faceSamevalue" jdbcType="VARCHAR" column="face_samevalue"/>
+    <result property="alarmTime" jdbcType="VARCHAR" column="alarm_time"/>
+    <result property="faceName" jdbcType="VARCHAR" column="face_name"/>
+    <result property="faceAge" jdbcType="VARCHAR" column="face_age"/>
+    <result property="facePlaction" jdbcType="VARCHAR" column="face_plaction"/>
+    <result property="guardReason" jdbcType="VARCHAR" column="guard_reason"/>
+    <result property="faceCountry" jdbcType="VARCHAR" column="face_country"/>
+    <result property="faceBirthday" jdbcType="VARCHAR" column="face_birthday"/>
+    <result property="facePicurl" jdbcType="VARCHAR" column="face_picurl"/>
+    <result property="guardtaskId" jdbcType="VARCHAR" column="guardtask_id"/>
+    <result property="faceCity" jdbcType="VARCHAR" column="face_city"/>
+    <result property="facecamCode" jdbcType="VARCHAR" column="facecam_code"/>
+    <result property="snapfacePicurl" jdbcType="VARCHAR" column="snapface_picurl"/>
+    <result property="faceProvince" jdbcType="VARCHAR" column="face_province"/>
+    <result property="facelibId" jdbcType="VARCHAR" column="facelib_id"/>
+    <result property="id" jdbcType="VARCHAR" column="id"/>
+    <result property="snappicId" jdbcType="VARCHAR" column="snappic_id"/>
+  </resultMap>
+</mapper>
